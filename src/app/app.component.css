@@ -1,0 +1,31 @@
+:host {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+#nav-brand {
+    height: 40px;
+    margin-top: 60px;
+}
+
+.text-button {
+    border: none;
+    background: none;
+    padding: 5%;
+    margin-bottom: 30%;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+

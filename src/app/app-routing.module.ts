@@ -7,12 +7,12 @@ import { AppointmentsComponent } from './appointments/appointments.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent},
-  { path: 'history', component: HistoryComponent},
-  { path: 'appointments', component: AppointmentsComponent},
-  { path: 'contact', component: ContactComponent}
+  { path: '', component: HomeComponent, title: 'Home' },
+  { path: 'home', component: HomeComponent, title: 'Home' },
+  { path: 'about', component: AboutComponent, title: 'About Khepra' },
+  { path: 'history', component: HistoryComponent, title: 'History' },
+  { path: 'appointments', component: AppointmentsComponent, title: 'Make an Appointment' },
+  { path: 'contact', component: ContactComponent, title: 'Contact Khepra'}
 
 ];
 

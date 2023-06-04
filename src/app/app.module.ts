@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContactBarComponent } from './contact-bar/contact-bar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    ContactBarComponent,
   ],
   imports: [
     BrowserModule,

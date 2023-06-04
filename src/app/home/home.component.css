@@ -1,10 +1,3 @@
-.container {
-    width: 100%;
-    height: 300px;
-    display: block;
-    margin: 0 auto;
-}
-
 .headers {
     text-align: center;
     display: block;
@@ -42,6 +35,8 @@ path {
 .introduction-img {
     display: block;
     object-fit: contain;
+    margin: 0 auto;
+    margin-top: 10%;
 }
 
 .intro-row {

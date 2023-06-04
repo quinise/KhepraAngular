@@ -1,13 +1,14 @@
 #nav-brand {
-    height: 50px;
+    height: 100%;
     margin-top: 100%;
 }
 
 button {
     border: none;
     margin: 5%;
-    margin-top: 5%;
+    margin-top:10%;
     margin-bottom: 20%;
+    background-color: #F5F5F5;
 }
 
 .text-button {

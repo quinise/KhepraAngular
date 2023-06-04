@@ -1,7 +1,8 @@
 .container {
-    margin: 0 auto;
     width: 100%;
-    text-align: center;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
 }
 
 .headers {
@@ -26,7 +27,7 @@ svg {
 .subtitle {
     fill: black;
     display: block;
-    height: 30%;
+    height: 100%;
 }
 
 .highlight {

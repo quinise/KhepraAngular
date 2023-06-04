@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  name  = 'Home';
 
+  constructor(private renderer: Renderer2) {
+    this.renderer.setStyle(document.body, 'background-color', 'yellow');
+  }
 }

@@ -1,0 +1,25 @@
+#nav-brand {
+    height: 50px;
+    margin-top: 100%;
+}
+
+button {
+    border: none;
+    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+.text-button {
+    border: none;
+    background: none;
+    padding: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+  }

@@ -14,13 +14,15 @@ svg {
 
 .headding {
     display: block;
-    fill: #0DD6F1;
+    fill: #055FF0;
+    font-family: "Marcellus", serif;
 }
 
 .subtitle {
     fill: black;
     display: block;
     height: 100%;
+    font-family: "Quicksand", sans-serif;
 }
 
 .highlight {

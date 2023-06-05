@@ -2,14 +2,15 @@
     position: relative;
     text-align: center;
     min-width: 100%;
-    height: 2.5 rem;
-    background-color: #0DD6F1;
+    height: 3.5rem;
+    margin-top: 5%;
 }
 
 #footer p {
     text-align: center;
     width: 100%;
     height: 2.5rem;
+    font-size: xx-small;
     font-family: "Gudea", sans-serif;
 }
 

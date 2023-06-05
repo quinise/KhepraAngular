@@ -7,6 +7,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactBarComponent } from './contact-bar/contact-bar.component';
+import { ReikiComponent } from './reiki/reiki.component';
+import { IfaComponent } from './ifa/ifa.component';
 
 
 @NgModule({
@@ -15,6 +17,8 @@ import { ContactBarComponent } from './contact-bar/contact-bar.component';
     NavComponent,
     FooterComponent,
     ContactBarComponent,
+    ReikiComponent,
+    IfaComponent,
   ],
   imports: [
     BrowserModule,

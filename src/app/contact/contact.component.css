@@ -7,7 +7,7 @@ h1  {
 }
 
 .icons img {
-    height: 120px;
+    height: 65px;
 }
 
 .tiktok-icon, .yt-icon  {
@@ -20,10 +20,4 @@ h1  {
 
 h3 {
     margin: 2%;
-}
-
-.spacer {
-    display: block;
-    height: 50px;
-    Width: 100%;
 }

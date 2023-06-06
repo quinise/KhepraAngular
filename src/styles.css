@@ -23,6 +23,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     background-image: linear-gradient(#fff 60%, #055FF0);
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

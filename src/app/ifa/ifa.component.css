@@ -1,0 +1,12 @@
+svg {
+    margin-top: 5%;
+}
+
+.headding {
+    fill: #055FF0;
+    font-family: "Marcellus", serif;
+}
+
+path {
+    fill: transparent;
+}

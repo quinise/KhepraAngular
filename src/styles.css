@@ -4,17 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-  }
-
-body {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-content: stretch;
-    align-items: stretch;
-    height: 100vh;
-    width: 100vh;
   } 
 
 html, body {
@@ -34,13 +23,14 @@ body {
     color: black;
     font-family: "Lateef", serif;
     position: relative;
-    padding-top: 70px;
-    padding-bottom: 70px; 
     display:flex; 
     flex-direction:column;
     text-align: center;
     margin-bottom: 0;
     margin-top: 0;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: stretch;
 }
 
 .container {

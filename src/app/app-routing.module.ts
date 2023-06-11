@@ -8,14 +8,12 @@ import { ReikiComponent } from './reiki/reiki.component';
 import { IfaComponent } from './ifa/ifa.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent, title: 'Home' },
-  { path: 'home', component: HomeComponent, title: 'Home' },
+  { path: '', component: HomeComponent, title: 'Khepra Ptah' },
   { path: 'about', component: AboutComponent, title: 'About Khepra' },
   { path: 'history', component: HistoryComponent, title: 'History' },
   { path: 'reiki', component: ReikiComponent, title: 'Reiki' },
   { path: 'ifa', component: IfaComponent, title: 'IFA' },
   { path: 'contact', component: ContactComponent, title: 'Contact Khepra'}
-
 ];
 
 @NgModule({

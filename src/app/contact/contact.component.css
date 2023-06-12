@@ -6,6 +6,20 @@ h1  {
     margin-bottom: 5%;
 }
 
+
+.img-section {
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.contact-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    object-fit:contain;
+}
+
 .icons img {
     height: 65px;
 }

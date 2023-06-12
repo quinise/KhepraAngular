@@ -10,3 +10,135 @@ svg {
 path {
     fill: transparent;
 }
+
+.primary-img-section, .secondary-img-section {
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+.primary-img, .secondary-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  object-fit:contain;
+}
+
+.primary-img {
+  margin-bottom: 20%;
+}
+
+.secondary-img {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.ifa-paragraph {
+  color: black;
+  background-color: white;
+  border: 2px solid #055FF0;
+  border-radius: 25px;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  font-family: "Lateef", serif;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    font-family: "Gudea", sans-serif;
+  }
+
+.service-list {
+  padding: 10px;
+  background-color: rgba(0, 0, 128, 0.2);
+  border: 2px solid #000080;
+  border-radius: 25px;
+  color: black;
+  width: 75%;
+  margin: 0 auto;
+}
+
+span {
+    margin-left: 2%;
+}
+
+  .ifa-readings {
+    display: none;
+    border: 2px solid #000080;
+    background-color: white;
+    width: 40%;
+  }
+
+  li:hover .ifa-readings {
+    display: inline-block;
+  }
+
+  .orisha-readings {
+    display: none;
+    border: 2px solid #000080;
+    background-color: white;
+    width: 40%;
+  }
+
+  li:hover .orisha-readings {
+    display: inline-block;
+  }
+
+  .esentaye {
+    display: none;
+    border: 2px solid #000080;
+    background-color: white;
+    width: 40%;
+  }
+
+  li:hover .esentaye {
+    display: inline-block;
+  }
+
+  .baths-soaps {
+    display: none;
+    border: 2px solid #000080;
+    background-color: white;
+    width: 40%;
+  }
+
+  li:hover .baths-soaps {
+    display: inline-block;
+  }
+
+  .cleaning {
+    display: none;
+    border: 2px solid #000080;
+    background-color: white;
+    width: 40%;
+  }
+
+  li:hover .cleaning {
+    display: inline-block;
+  }
+
+  .rites {
+    display: none;
+    border: 2px solid #000080;
+    background-color: white;
+    width: 40%;
+  }
+
+  li:hover .rites {
+    display: inline-block;
+  }
+
+  .community {
+    display: none;
+    border: 2px solid #000080;
+    background-color: white;
+    width: 40%;
+  }
+
+  li:hover .community {
+    display: inline-block;
+  }

@@ -6,32 +6,27 @@ h1  {
     margin-bottom: 5%;
 }
 
-
-.img-section {
-    max-width: 40%;
+.contact-info {
+    padding: 0;
+    display: flex;
     margin: 0 auto;
+    width: 100%;
+    background: url(/assets/contact-img.png);
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    background-position: center;
 }
 
-.contact-img {
-    display: block;
+.icons {
     margin: 0 auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    object-fit:contain;
+    padding: 10%;
+    display: inline-block;
 }
 
 .icons img {
     height: 65px;
 }
 
-.tiktok-icon, .yt-icon  {
-    margin-bottom: 2%;;
-}
-
- .email-icon {
-    margin-bottom: 2%;
-}
-
 h3 {
-    margin: 2%;
+    margin: 5%;
 }

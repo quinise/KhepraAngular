@@ -3,6 +3,10 @@ h1 {
     width: 100%;
 }
 
+h4 {
+    color: #022C70;
+}
+
 svg {
     display: block;
     margin: 0 auto;

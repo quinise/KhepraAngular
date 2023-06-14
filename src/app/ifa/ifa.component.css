@@ -3,7 +3,7 @@ svg {
 }
 
 .headding {
-    fill: #055FF0;
+    fill: #022C70;
     font-family: "Marcellus", serif;
 }
 
@@ -55,7 +55,7 @@ ul {
 .service-list {
   padding: 10px;
   background-color: rgba(0, 0, 128, 0.2);
-  border: 2px solid #000080;
+  border: 2px solid #022C70;
   border-radius: 25px;
   color: black;
   width: 75%;

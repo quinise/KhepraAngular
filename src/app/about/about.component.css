@@ -66,6 +66,12 @@ h4 {
 
 p { text-align: center;}
 
+.quote-mark {
+    color: #022C70;
+    font-family: "Marcellus", serif;
+    font-size: 35px;
+}
+
 .testimonial1, .testimonial2 {
     max-width: 50%;
     padding: 2%;
@@ -76,4 +82,8 @@ p { text-align: center;}
     max-width: 75%;
     margin: 0 auto;
     font-family: "Gudea", sans-serif;
+}
+
+.footer-img {
+    margin: 1%;
 }

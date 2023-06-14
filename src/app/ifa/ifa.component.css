@@ -142,3 +142,8 @@ span {
   li:hover .community {
     display: inline-block;
   }
+
+.footer-img {
+  margin: 1%;
+  margin-top: 5%;
+}

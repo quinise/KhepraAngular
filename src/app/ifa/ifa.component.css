@@ -66,84 +66,84 @@ span {
     margin-left: 2%;
 }
 
-  .ifa-readings {
-    display: none;
-    border: 2px solid #000080;
-    background-color: white;
-    width: 40%;
-  }
+.ifa-readings {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
 
-  li:hover .ifa-readings {
-    display: inline-block;
-  }
+li:hover .ifa-readings {
+  display: inline-block;
+}
 
-  .orisha-readings {
-    display: none;
-    border: 2px solid #000080;
-    background-color: white;
-    width: 40%;
-  }
+.orisha-readings {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
 
-  li:hover .orisha-readings {
-    display: inline-block;
-  }
+li:hover .orisha-readings {
+  display: inline-block;
+}
 
-  .esentaye {
-    display: none;
-    border: 2px solid #000080;
-    background-color: white;
-    width: 40%;
-  }
+.esentaye {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
 
-  li:hover .esentaye {
-    display: inline-block;
-  }
+li:hover .esentaye {
+  display: inline-block;
+}
 
-  .baths-soaps {
-    display: none;
-    border: 2px solid #000080;
-    background-color: white;
-    width: 40%;
-  }
+.baths-soaps {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
 
-  li:hover .baths-soaps {
-    display: inline-block;
-  }
+li:hover .baths-soaps {
+  display: inline-block;
+}
 
-  .cleaning {
-    display: none;
-    border: 2px solid #000080;
-    background-color: white;
-    width: 40%;
-  }
+.cleaning {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
 
-  li:hover .cleaning {
-    display: inline-block;
-  }
+li:hover .cleaning {
+  display: inline-block;
+}
 
-  .rites {
-    display: none;
-    border: 2px solid #000080;
-    background-color: white;
-    width: 40%;
-  }
+.rites {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
 
-  li:hover .rites {
-    display: inline-block;
-  }
+li:hover .rites {
+  display: inline-block;
+}
 
-  .community {
-    display: none;
-    border: 2px solid #000080;
-    background-color: white;
-    width: 40%;
-  }
+.community {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
 
-  li:hover .community {
-    display: inline-block;
-  }
+li:hover .community {
+  display: inline-block;
+}
 
 .footer-img {
-  margin: 1%;
-  margin-top: 5%;
+margin: 1%;
+margin-top: 5%;
 }

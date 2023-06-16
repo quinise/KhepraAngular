@@ -3,6 +3,10 @@ h1 {
     width: 100%;
 }
 
+svg {
+    height: 100px;
+}
+
 h4 {
     color: #022C70;
 }
@@ -86,4 +90,15 @@ p { text-align: center;}
 
 .footer-img {
     margin: 1%;
+}
+
+@media (max-width: 768px){
+    .headers {
+        margin: 0 auto;
+        height: 50px;
+    }
+
+    .intro-row {
+        margin-top: 35%;
+    }
 }

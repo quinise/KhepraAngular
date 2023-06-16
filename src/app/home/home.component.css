@@ -1,22 +1,26 @@
-@media (max-width: 768px){
-    .headers {
-        margin: 0 auto;
-        margin-top: 7%;
-    }    
-}
-
 .headers {
     text-align: center;
     display: block;
     justify-content: center;
     width: 100%;
-    height: 15%;
+    height: 220px;
+    margin-top: 3%;
+    margin-bottom: 2%;
 }
 
 svg {
     display: block;
     margin: 0 auto;
-    height: 100%;
+}
+
+.main-svg {
+    height: 200px;
+    margin-bottom: 0%;
+}
+
+.secondary-svg {
+    height: 95px;
+    margin-top: 0%;
 }
 
 .headding {
@@ -28,13 +32,7 @@ svg {
 .subtitle {
     fill: #4E8DF2;
     display: block;
-    height: 100%;
     font-family: "Quicksand", sans-serif;
-}
-
-.highlight {
-    display: block;
-    height: 25%;
 }
 
 path {
@@ -48,11 +46,18 @@ path {
 .introduction-img {
     object-fit: contain;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-bottom: 10%;
-    height: 20%;
+    height: 650px;
 }
 
-#spacer {
-    display: none;
+@media (max-width: 768px){
+    .headers {
+        margin: 0 auto;
+        height: 50px;
+    }
+
+    .intro-row {
+        margin-top: 35%;
+    }
 }

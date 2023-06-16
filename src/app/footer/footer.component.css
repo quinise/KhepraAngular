@@ -2,11 +2,11 @@
     position: relative;
     text-align: center;
     min-width: 100%;
-    height: 10%;
     margin-top: 5%;
 }
 
 #footer p {
+    border: none;
     text-align: center;
     width: 100%;
     height: 2.5rem;
@@ -25,7 +25,6 @@
 
 @media (max-width: 768px){
     #footer {
-        position: absolute;
         margin-top: 50%;
     }
 }

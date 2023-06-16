@@ -1,37 +1,39 @@
 h1 {
-    margin-right: 50%;
     width: 100%;
 }
 
+
 svg {
+    width: 100%;
     display: block;
+    height: 200px;
     margin: 0 auto;
+    margin-bottom: 0%;
+    margin-left: 1%;
 }
 
 .headding {
     fill: #022C70;
     font-family: "Marcellus", serif;
 }
- 
-.dash {
-    margin: 0 auto;
-}
+
 
 path {
     fill: transparent;
 }
 
-.history-section { margin-bottom: 10%; }
+.history-section { 
+    margin-top: 1em;
+    margin-bottom: 10%; 
+}
 
 .history-img {
     display: block;
     max-width: 70%;
     margin: 0 auto;
-    margin-bottom: 5%;
-    margin-top: 1%;
+    margin-bottom: 2%;
     object-fit:contain;
-    width:25%;
-    height:25%;
+    height: 300px;
     display: block;
 }
 

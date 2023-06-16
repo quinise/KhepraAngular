@@ -1,3 +1,5 @@
+
+
 .contact-bar {
     min-width: 100%;
     margin-top: 1%;
@@ -8,14 +10,25 @@
 
 img {
     float: right;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
-.tiktok-icon, .youtube-icon {
+.tiktok-icon, .youtube-icon, .fb-icon {
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
 .email-icon {
     margin-top: 0.5em;
+}
+
+@media (max-width: 768px){
+    img {
+        float: none;
+        margin: 6%;
+    }
+
+    .icons {
+        margin: 0 auto;
+    }
 }

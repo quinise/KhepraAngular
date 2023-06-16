@@ -21,11 +21,13 @@ h1  {
 .icons {
     margin: 0 auto;
     padding: 10%;
+    width: 100%;
     display: inline-block;
 }
 
 .icons img {
     height: 65px;
+    margin: 1%;
 }
 
 h3 {

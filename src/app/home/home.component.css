@@ -65,3 +65,8 @@ path {
         margin-top: 2%;
     }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* webkit specific CSS */
+    svg { height: 250px; }
+}

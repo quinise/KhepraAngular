@@ -54,3 +54,23 @@ path {
     margin: 1%;
     margin-top: 5%;
 }
+
+@media (max-width: 768px){
+    svg {
+        margin-left: 10%;
+    }
+
+    .history-img {
+        margin-top: 0%;
+        margin-bottom: 10%;
+    }
+
+    .history-section {
+        margin-left: 15%;
+        margin-top: 0px;
+    }
+
+    .footer-img {
+        margin-left: 15%;
+    }
+}

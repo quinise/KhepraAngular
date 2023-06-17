@@ -42,4 +42,8 @@ h3 {
     h1, .contact-info, .footer-img {
         margin-left: 15%
     }
+
+    .icons {
+        margin-top: 8%;
+    }
 }

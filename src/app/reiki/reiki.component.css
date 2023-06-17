@@ -147,3 +147,35 @@ li:hover .community {
 .footer-img {
   margin: 3%;
 }
+
+@media (max-width: 768px){
+  svg {
+      margin-left: 10%;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  .primary-img-section, .secondary-img-section {
+      margin-top: 0%;
+      margin-bottom: 10%;
+  }
+
+  .primary-img-section, .secondary-img-section {
+    margin-left: 35%;
+  }
+
+  .reiki-section {
+      margin-left: 10%;
+      margin-top: 0px;
+  }
+
+  .service-list {
+    margin-left: 20%;
+  }
+
+  .footer-img {
+      margin-left: 15%;
+  }
+}

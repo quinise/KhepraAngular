@@ -11,12 +11,8 @@ img {
     margin-right: 3%;
 }
 
-.tiktok-icon, .youtube-icon, .fb-icon {
-    margin-top: .1em;
-}
-
-.email-icon {
-    margin-top: .1em;
+.tiktok-icon, .youtube-icon, .fb-icon, .email-icon {
+    margin-top: .5em;
 }
 
 @media (max-width: 768px){
@@ -36,7 +32,7 @@ img {
     }
     
     .email-icon {
-        margin-top: 2%;
+        margin-top: 4%;
         margin-bottom: 4%;
     }
 }

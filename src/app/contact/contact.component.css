@@ -1,6 +1,7 @@
 h1  {
     font-weight: 100;
     width: 100%;
+    margin: 0 auto;
     margin-top: 5%;
     margin-bottom: 1%;
 }
@@ -35,4 +36,10 @@ h3 {
 
 .footer-img {
     margin: 1%;
+}
+
+@media (max-width: 768px){
+    h1, .contact-info, .footer-img {
+        margin-left: 15%
+    }
 }

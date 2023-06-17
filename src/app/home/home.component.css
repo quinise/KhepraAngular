@@ -52,12 +52,16 @@ path {
 }
 
 @media (max-width: 768px){
+   svg {
+    margin-bottom: 1em;
+   }
+    
     .headers {
         margin: 0 auto;
         height: 50px;
     }
 
     .intro-row {
-        margin-top: 35%;
+        margin-top: 2%;
     }
 }

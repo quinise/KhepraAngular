@@ -47,6 +47,103 @@ path {
     font-family: "Lateef", serif;
   }
 
+  ul {
+    list-style: none;
+    text-align: center;
+    font-family: "Gudea", sans-serif;
+  }
+
+.service-list {
+  padding: 10px;
+  background-color: #AEC9F6;
+  border: 2px solid #022C70;
+  border-radius: 25px;
+  color: black;
+  width: 75%;
+  margin: 0 auto;
+}
+
+span {
+    margin-left: 2%;
+}
+
+.ifa-readings {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
+
+li:hover .ifa-readings {
+  display: inline-block;
+}
+
+.orisha-readings {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
+
+li:hover .orisha-readings {
+  display: inline-block;
+}
+
+.esentaye {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
+
+li:hover .esentaye {
+  display: inline-block;
+}
+
+.baths-soaps {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
+
+li:hover .baths-soaps {
+  display: inline-block;
+}
+
+.cleaning {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
+
+li:hover .cleaning {
+  display: inline-block;
+}
+
+.rites {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
+
+li:hover .rites {
+  display: inline-block;
+}
+
+.community {
+  display: none;
+  border: 2px solid #000080;
+  background-color: white;
+  width: 40%;
+}
+
+li:hover .community {
+  display: inline-block;
+}
+
 .footer-img {
-  margin: 1%;
+  margin: 3%;
 }

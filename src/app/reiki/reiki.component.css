@@ -183,24 +183,3 @@ li:hover .community {
       margin-left: 15%;
   }
 }
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  /* webkit specific CSS */
-  svg { 
-    height: 100px;
-    margin-left: 15%;
-  }
-
-  .primary-img-section, .secondary-img-section {
-    margin-left: 45%;
-  }
-
-  .reiki-section, .service-list {
-    margin-left: 30%;
-  }
-
-  .footer-img {
-    margin-top: 5%;
-    margin-left: 30%;
-  }
-}

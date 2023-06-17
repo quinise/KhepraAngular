@@ -1,6 +1,7 @@
 .contact-bar {
+    float: left;
     height: 100px;
-    width: 103%;
+    width: 100%;
     margin-top: 1%;
     margin-bottom: 1%;
     justify-content: end;

@@ -1,7 +1,8 @@
 svg {
     display: block;
     margin: 0 auto;
-    height: 100px;
+    margin-bottom: 7%;
+    max-height: 150px;
     width: 100%;
 }
 
@@ -90,22 +91,27 @@ p { text-align: center;}
 @media (max-width: 768px){
     svg {
         margin: 0 auto;
-        margin-left: 10%;
+        margin-left: 15%;
         margin-bottom: 1%;
     }
 
     .about-section {
-        margin-left: 10%;
+        margin-left: 24%;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 150px;
     }
 
     .testimonials-container {
-        margin-left: 15%;
+        margin-left: 30%;
     }
 
     h2 {
         margin-top: 15%;
         margin-bottom: 5%;
-        margin-left: 10%;;
+        margin-left: 31%;;
     }
 
     .testimonial3 {
@@ -113,14 +119,30 @@ p { text-align: center;}
     }
 
     .footer-img {
-        margin-left: 15%;
+        margin-left: 31%;
     }
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     /* webkit specific CSS */
     svg { 
-      height: 100px; 
-      margin-top: 10%;
+      max-height: 150px;
+      margin-top: 5%;
+      margin-bottom: 5%;
     }
+
+    .testimonials-container {
+        min-width: 100%;
+        margin-left: 15%;
+    }
+
+    .testimonial1, .testimonial2, .testimonial3 {
+        min-width: 100%;
+        margin-top: 5%;
+    }
+
+    .footer-img {
+        margin-top: 10%;
+    }
+
   }

@@ -1,5 +1,9 @@
 svg {
-    margin-top: 5%;
+  display: block;
+  margin: 0 auto;
+  max-height: 100px;
+  margin-bottom: 5%;
+  width: 100%;
 }
 
 
@@ -183,7 +187,20 @@ li:hover .community {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   /* webkit specific CSS */
   svg { 
-    height: 100px; 
-    margin-top: 10%;
+    height: 100px;
+    margin-left: 15%;
+  }
+
+  .primary-img-section, .secondary-img-section {
+    margin-left: 45%;
+  }
+
+  .reiki-section, .service-list {
+    margin-left: 30%;
+  }
+
+  .footer-img {
+    margin-top: 5%;
+    margin-left: 30%;
   }
 }

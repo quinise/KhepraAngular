@@ -10,6 +10,8 @@
 
 svg {
     display: block;
+    max-height: 100px;
+    margin-bottom: 5%;
     margin: 0 auto;
 }
 
@@ -53,16 +55,30 @@ path {
 
 @media (max-width: 768px){
    svg {
-    margin-bottom: 1em;
+    max-height: 100px;
+   }
+
+   svg.secondary-svg {
+    max-height: 20px;
+    margin-bottom: 1%;
    }
     
     .headers {
         margin: 0 auto;
+        margin-left: 15%;
         height: 50px;
     }
 
-    .intro-row {
-        margin-top: 2%;
+    .main-svg {
+        margin-bottom: .1em;
+    }
+
+    div.intro-row {
+        margin-left: 26%;
+    }
+
+    img {
+        max-height: 300px;
     }
 }
 

@@ -6,10 +6,9 @@ h1 {
 svg {
     width: 100%;
     display: block;
-    height: 200px;
     margin: 0 auto;
+    max-height: 100px;
     margin-bottom: 0%;
-    margin-left: 1%;
 }
 
 .headding {
@@ -60,6 +59,11 @@ path {
         margin-left: 10%;
     }
 
+    img {
+        max-width: 100%;
+        max-height: 150px;
+    }
+
     .history-img {
         margin-top: 0%;
         margin-bottom: 10%;
@@ -77,5 +81,18 @@ path {
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     /* webkit specific CSS */
-    svg { height: 250px; }
+    svg { 
+        height: 250px;
+        margin-left: 15%;
+    }
+
+    .history-section {
+        min-width: 100%;
+        margin-left: 15%;
+    }
+
+    .footer-img {
+        min-width: 100%;
+        margin-left: 15%;
+    }
 }

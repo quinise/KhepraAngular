@@ -1,25 +1,39 @@
 .contact-bar {
+    display: block;
     float: left;
     height: 100px;
-    width: 100%;
+    width: 103%;
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 5%;
     justify-content: end;
     background-color: #AEC9F6;
 }
+
+.contact-icons {
+    min-height: 100px;
+    display: block;
+}
+
 
 img {
     float: right;
     margin-right: 3%;
 }
 
-.tiktok-icon, .youtube-icon, .fb-icon, .email-icon {
+.tiktok-icon, .fb-icon, .email-icon {
     margin-top: .5em;
+    margin-bottom: .5em;
 }
+
+.youtube-icon {
+    margin-top: .7em;
+}
+
+
 
 @media (max-width: 768px){
     .contact-bar {
-        width: 500px;
+        min-width: 100%;
         height: 150px;
     }
 

@@ -1,7 +1,7 @@
 svg {
   display: block;
   margin: 0 auto;
-  max-height: 100px;
+  min-height: 160px;
   margin-bottom: 5%;
   width: 100%;
 }
@@ -93,14 +93,14 @@ li:hover .orisha-readings {
   display: inline-block;
 }
 
-.esentaye {
+.sessions {
   display: none;
   border: 2px solid #000080;
   background-color: white;
   width: 40%;
 }
 
-li:hover .esentaye {
+li:hover .sessions {
   display: inline-block;
 }
 

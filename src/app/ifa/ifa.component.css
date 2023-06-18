@@ -1,5 +1,9 @@
+.title {
+  min-width: 100%;
+  min-height: 30px;
+}
+
 svg {
-    margin-top: 5%;
     max-height: 200px;
     margin-bottom: 1%;
 }
@@ -87,17 +91,6 @@ li:hover .ifa-readings {
 }
 
 li:hover .orisha-readings {
-  display: inline-block;
-}
-
-.esentaye {
-  display: none;
-  border: 2px solid #000080;
-  background-color: white;
-  width: 40%;
-}
-
-li:hover .esentaye {
   display: inline-block;
 }
 

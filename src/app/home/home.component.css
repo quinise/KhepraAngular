@@ -3,18 +3,11 @@
     display: block;
     justify-content: center;
     min-width: 100%;
-    min-height: 320px;
-}
-
-.main-title {
-    min-width: 100%;
-    min-height: 150px;
-    margin-bottom:  0%;
+    min-height: 100px;
 }
 
 svg {
     display: block;
-    min-width: 100%;
     margin: 0 auto;
 }
 
@@ -53,8 +46,6 @@ path {
 
 .subtitle {
     margin-bottom: 10%;
-    margin-left: 10%;
-    min-width: 100%;
     max-height: 150px; 
     fill: #4E8DF2;
     display: block;

@@ -1,10 +1,11 @@
 nav {
     max-height: 3.5em;
+    margin-bottom: 0%;
 }
 
 .collapse {
     background-color: #F8F9FA;
-    min-width: 100%;
+    max-width: 88.56%;
 }
 
 .text-button {
@@ -21,6 +22,9 @@ a:visited {
     color: black;
   }
 
-  @media (max-width: 768px) {
-    
-  }
+@media (max-width: 768px) {
+    nav {
+        max-width: 768px;
+        margin: 0%;
+    }
+}

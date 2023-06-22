@@ -6,19 +6,9 @@
     min-height: 100px;
 }
 
-svg {
-    display: block;
-    margin: 0 auto;
-}
-
 .main-svg {
     height: 180px;
     margin-bottom: 0%;
-}
-
-.secondary-svg {
-    height: 180px;
-    margin-top: 0%;
 }
 
 .headding {
@@ -32,12 +22,14 @@ path {
 }
 
 .intro-row {
+    display: inline-block;
     margin: 0 auto;
     min-width: 100%;
     min-height: 100px;
 }
 
 .introduction-img {
+    display: inline-block;
     object-fit: contain;
     margin: 0 auto;
     margin-top: 2%;
@@ -45,11 +37,23 @@ path {
 }
 
 .subtitle {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
     margin-bottom: 10%;
-    margin-left: 15%;
-    max-height: 150px; 
+    height: 150px; 
+}
+
+.secondary-svg {
+    display: inline-block;
+    height: 300px;
+}
+
+.rocker {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10%;
     fill: #4E8DF2;
-    display: block;
     font-family: "Quicksand", sans-serif;
 }
 

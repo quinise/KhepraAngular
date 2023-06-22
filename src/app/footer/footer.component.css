@@ -1,11 +1,11 @@
-#footer {
+.footer {
     position: relative;
     text-align: center;
     min-width: 100%;
     margin-top: 5%;
 }
 
-#footer p {
+.footer p {
     border: none;
     text-align: center;
     width: 100%;
@@ -15,16 +15,22 @@
     font-family: "Gudea", sans-serif;
 }
 
-#footer a:link { text-decoration: none; color: #022C70; }
+.footer a:link { 
+    text-decoration: none; 
+    color: #022C70; 
+}
 
-#footer a:visited { text-decoration: none; color: #022C70; }
+.footer a:visited { 
+    text-decoration: none; 
+    color: #022C70; 
+}
 
-#footer a:hover { text-decoration: none;  }
+.footer a:hover { text-decoration: none;  }
 
-#footer a:active { text-decoration: none; }
+.footer a:active { text-decoration: none; }
 
 @media (max-width: 768px){
-    #footer {
+    .footer {
         margin-top: 50%;
         margin-left: 15%;
     }

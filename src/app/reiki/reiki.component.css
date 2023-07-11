@@ -59,10 +59,16 @@ path {
     font-family: "Lateef", serif;
   }
 
+  h2 {
+    font-size: 40px;
+    font-family: "Lateef", serif;
+  }
+
   ul {
     list-style: none;
     text-align: center;
-    font-family: "Gudea", sans-serif;
+    font-size: 25px;
+    font-family: "Lateef", serif;
   }
 
 .service-list {

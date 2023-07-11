@@ -6,10 +6,6 @@ svg {
     width: 100%;
 }
 
-h4 {
-    color: #022C70;
-}
-
 .headding {
     fill: #022C70;
     font-family: "Marcellus", serif;
@@ -48,10 +44,22 @@ path {
     font-family: "Lateef", serif;
 }
 
+h2 {
+    font-size: 40px;
+    font-family: "Marcellus", serif;
+}
+
 .testimonials-section {
     margin: 0 auto;
     margin-top: 5%;
     width: 75%;
+}
+
+.testimonials-break {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    color:#022C70;
 }
 
 .testimonials-container {
@@ -60,7 +68,7 @@ path {
 }
 
 h4 {
-    fill: #022C70;
+    color: #022C70;
     font-family: "Marcellus", serif;
 }
 

@@ -34,6 +34,14 @@ path {
   margin-bottom: 20%;
 }
 
+.secondary-img-break {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  color:#022C70;
+}
+
 .secondary-img {
   margin-top: 20%;
   margin-bottom: 20%;

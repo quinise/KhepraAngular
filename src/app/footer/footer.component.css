@@ -6,13 +6,12 @@
 }
 
 .footer p {
-    border: none;
     text-align: center;
     width: 100%;
     height: 2.5rem;
     color: #022C70;
     font-size: x-small;
-    font-family: "Gudea", sans-serif;
+    font-family: "Lateef", serif;
 }
 
 .footer a:link { 

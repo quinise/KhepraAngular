@@ -9,7 +9,7 @@ html, body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    background-image: linear-gradient(#ffffff 70%, #055FF0);
+    background-image: linear-gradient(#F5F9FF 65%, #055FF0);
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -45,14 +45,14 @@ h2 {
     display: block;
     text-align: center;
     color: #022C70;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Marcellus", serif;
 }
 
 h3 {
     display: block;
     text-align: center;
     color: black;
-    font-family: "Gudea", sans-serif;
+    font-family: "Marcellus", serif;
 }
 
 path {
@@ -76,3 +76,5 @@ svg.sep {
     max-width: 70%;
     box-shadow: 5px 10px 18px #888888;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

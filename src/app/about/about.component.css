@@ -1,3 +1,4 @@
+/* This file contains the styles for the About page */
 svg {
     display: block;
     margin: 0 auto;
@@ -76,7 +77,7 @@ h4 {
 p { text-align: center;}
 
 .quote-mark {
-    color: #022C70;
+        color: #022C70;
     font-family: "Marcellus", serif;
     font-size: 35px;
 }

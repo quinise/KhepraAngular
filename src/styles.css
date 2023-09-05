@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+/* This file contains global styles */
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@ html, body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    background-image: linear-gradient(#F5F9FF 65%, #055FF0);
+    background-image: linear-gradient(#e4ebf5 65%, #055FF0);
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;

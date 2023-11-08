@@ -76,11 +76,17 @@ path {
     }
 
     .history-section {
-        margin-left: 15%;
+        margin: 0 auto;
         margin-top: 0px;
     }
 
+    .history-paragraph {
+        width: 80%;
+        margin-bottom: 20%;
+    }
+
     .footer-img {
-        margin-left: 15%;
+        margin: 0 auto;
+        margin-bottom: 20%;
     }
 }

@@ -27,7 +27,13 @@ a:visited {
 
 @media (max-width: 768px) {
     nav {
-        max-width: 768px;
+        max-width: 100%;
         margin: 0%;
+    }
+}
+
+@media (min-width: 576px) {
+    nav {
+        min-width: 576px;
     }
 }

@@ -32,13 +32,15 @@ img {
 
 @media (max-width: 768px){
     .contact-bar {
-        height: 120px;
+        height: 60px;
 
     }
 
     img {
+        width: 10%;
+        height: 10%;
         float: none;
-        margin: 6%;
+        margin: 5%;
         margin-bottom: 2%;
     }
 
@@ -47,7 +49,7 @@ img {
     }
     
     .email-icon {
-        margin-top: 4%;
+        margin-top: 9%;
         margin-bottom: 4%;
     }
 }

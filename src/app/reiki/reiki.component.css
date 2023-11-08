@@ -120,14 +120,14 @@ li:hover .sessions {
   display: inline-block;
 }
 
-.baths-soaps {
+.circles {
   display: none;
   border: 2px solid #000080;
   background-color: white;
   width: 40%;
 }
 
-li:hover .baths-soaps {
+li:hover .circles {
   display: inline-block;
 }
 
@@ -142,60 +142,56 @@ li:hover .cleaning {
   display: inline-block;
 }
 
-.rites {
-  display: none;
-  border: 2px solid #000080;
-  background-color: white;
-  width: 40%;
-}
-
-li:hover .rites {
-  display: inline-block;
-}
-
-.community {
-  display: none;
-  border: 2px solid #000080;
-  background-color: white;
-  width: 40%;
-}
-
-li:hover .community {
-  display: inline-block;
-}
-
 .footer-img {
   margin: 3%;
 }
 
 @media (max-width: 768px){
   svg {
-      margin-left: 10%;
-  }
-
-  img {
-    margin: 0 auto;
+      margin: 0 auto;
   }
 
   .primary-img-section, .secondary-img-section {
+      margin: 0 auto;
       margin-top: 0%;
       margin-bottom: 10%;
   }
 
   .primary-img-section, .secondary-img-section {
-    margin-left: 35%;
+    margin: 0 auto;
+  }
+
+  .reiki-paragraph {
+    width: 80%
   }
 
   .reiki-section {
-      margin-left: 10%;
+      margin: 0 auto;
       margin-top: 0px;
   }
 
   .service-list {
-    margin-left: 20%;
+    margin: 0 auto;
+  }
+
+  li:hover .sessions {
+    display: inline-block;
+    width: 100%;
+  }
+
+  li:hover .circles {
+    display: inline-block;
+    width: 100%;
+  }
+
+  li:hover .cleaning {
+    display: inline-block;
+    width: 100%;
   }
 
   .footer-img {
-      margin-left: 15%;
+      margin: 0 auto;
+      margin-top: 20%;
+      margin-bottom: 25%;
   }
 }

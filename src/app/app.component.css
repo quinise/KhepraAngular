@@ -6,3 +6,16 @@
     bottom: 0;
     top: 0;
 }
+
+/* Mobile styles */
+@media (max-width: 767.98px) {
+    :host {
+        position: fixed;
+        width: 280px;
+        overflow: auto;
+        left: 10;
+        right: 0;
+        bottom: 0;
+        top: 0;
+    }
+}

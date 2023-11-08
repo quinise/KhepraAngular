@@ -160,33 +160,65 @@ margin-top: 5%;
 }
 
 @media (max-width: 768px){
-  svg {
-      margin-left: 10%;
-  }
-
-  img {
+  .title {
     margin: 0 auto;
   }
 
+
   .primary-img-section, .secondary-img-section {
-      margin-top: 0%;
+    margin: 0 auto;  
+    margin-top: 0%;
       margin-bottom: 10%;
   }
 
   .primary-img-section, .secondary-img-section {
-    margin-left: 35%;
+    margin: 0 auto;
   }
 
   .ifa-section {
-      margin-left: 10%;
-      margin-top: 0px;
+      margin: 0 auto;
+  }
+
+  .ifa-paragraph {
+    width: 80%;
   }
 
   .service-list {
-    margin-left: 20%;
+    margin: 0 auto;
+    margin-bottom: 20%;
+  }
+
+  li:hover .ifa-readings {
+    display: inline-block;
+    width: 100%;
+  }
+
+  li:hover .orisha-readings {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  li:hover .baths-soaps {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  li:hover .cleaning {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  li:hover .rites {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  li:hover .community {
+    display: inline-block;
+    width: 100%;
   }
 
   .footer-img {
-      margin-left: 15%;
+      margin: 0 auto;
   }
 }

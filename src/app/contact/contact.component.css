@@ -44,11 +44,17 @@ h3 {
 }
 
 @media (max-width: 768px){
-    h1, .contact-info, .footer-img {
-        margin-left: 15%
+    h1, h3, .contact-info, .footer-img {
+        margin: 0 auto;
     }
 
     .icons {
-        margin-top: 8%;
+        width: 100%;
+        margin-left: 25%;
+    }
+
+    .icon {
+        height: 100px;
+        display: block;
     }
 }

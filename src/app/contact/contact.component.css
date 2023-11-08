@@ -49,12 +49,20 @@ h3 {
     }
 
     .icons {
-        width: 100%;
-        margin-left: 25%;
+        width: 50%;
+        margin: 0 auto;
     }
 
     .icon {
         height: 100px;
         display: block;
+    }
+
+    .phone-no {
+        margin-bottom: 15%;
+    }
+
+    .footer-img {
+        margin-bottom: 15%;
     }
 }

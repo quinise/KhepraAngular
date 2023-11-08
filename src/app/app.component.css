@@ -8,10 +8,10 @@
 }
 
 /* Mobile styles */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
     :host {
         position: fixed;
-        width: 280px;
+        width: 50vh;
         overflow: auto;
         left: 10;
         right: 0;

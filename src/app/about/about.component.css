@@ -98,7 +98,7 @@ p { text-align: center;}
     margin: 1%;
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
     svg {
         margin: 0 auto;
         margin-bottom: 1%;

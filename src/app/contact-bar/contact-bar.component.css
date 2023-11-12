@@ -13,7 +13,6 @@
     display: block;
 }
 
-
 img {
     float: right;
     margin-right: 3%;
@@ -28,7 +27,12 @@ img {
     margin-top: 2em;
 }
 
-
+/* Low resolution tablet and iPad max-width */
+@media (max-width: 767px) {
+    .contact-bar {
+       height: 14%;
+    }
+}
 
 @media (max-width: 768px){
     .contact-bar {

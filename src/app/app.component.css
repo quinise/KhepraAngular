@@ -7,13 +7,25 @@
     top: 0;
 }
 
-/* Mobile styles */
-@media (max-width: 768px) {
+/* Low resolution tablet and iPad max-width */
+@media (max-width: 767px) {
     :host {
         position: fixed;
-        width: 50vh;
+        width: 100vh;
         overflow: auto;
         left: 10;
+        right: 0;
+        bottom: 0;
+        top: 0;
+    }
+}
+/* Mobile styles */
+@media (max-width: 480px) {
+    :host {
+        position: fixed;
+        width: 65vh;
+        overflow: auto;
+        left: 0;
         right: 0;
         bottom: 0;
         top: 0;

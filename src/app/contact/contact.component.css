@@ -149,7 +149,7 @@ iframe {
     }
 }
 
-/* Tablets and iPads portrait mode max-width */
+/* Tablets and iPads */
 @media (max-width: 1024px){
     .icons img {
         height: 50px;
@@ -165,19 +165,8 @@ iframe {
     }
 }
 
-/* Low resolution tablets and iPads */
-@media (max-width: 767px){
-    .info-border {
-        margin: 0 auto;
-        margin-top: 3%;
-        margin-bottom: 20%;
-        color: #022C70;
-        width: 45%;
-    }
-}
-
-/* Smartphone  max-width*/
-@media (max-width: 480px){
+/* Smartphones */
+@media (max-width: 576px){
     h1, h3, .footer-img {
         margin: 0 auto;
     }
@@ -187,11 +176,19 @@ iframe {
     }
 
     .contact-info {
-        height: 50%;
-        width: 100%;
+        height: 60%;
         padding: 0;
         margin-bottom: 10%;
         background-image:none;
+    }
+
+    .icon {
+        height: 100px;
+        display: block;
+    }
+
+    .phone-no {
+        margin-bottom: 15%;
     }
 
     .watch-next-videos {

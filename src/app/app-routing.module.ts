@@ -18,19 +18,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
-    HomeComponent,
-    AboutComponent,
-    HistoryComponent,
-    ContactComponent
-  ],
+  declarations: [],
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
-  bootstrap: [
-    HomeComponent,
-    AboutComponent,
-    HistoryComponent,
-    ContactComponent
-    ]
+  bootstrap: []
 })
 export class AppRoutingModule { }
